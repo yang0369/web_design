@@ -6,14 +6,27 @@
     <title>Your Name - Personal Website</title>
     <style>
         body {
-          background-image: url('C:\Users\yangk\My_Projects\images\background.jpg'); /* Replace 'your-background-image.jpg' with the path to your background image */
-          background-size: cover; /* This will make the background image cover the entire viewport */
-          background-repeat: no-repeat; /* Prevent the background image from repeating */
-          background-attachment: fixed; /* Fixed background for a parallax effect (optional) */
-          background-color: grey; /* Fallback background color in case the image doesn't load */
-          /* You can also add other background properties like background-position, background-attachment, etc. */
-          color: blue; /* Set text color to contrast with the background */
-          font-family: Arial, sans-serif; /* Set your desired font */
+            background-image: url('static/background.jpg'); /* Replace 'your-background-image.jpg' with the path to your background image */
+            background-size: cover; /* This will make the background image cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent the background image from repeating */
+            background-attachment: fixed; /* Fixed background for a parallax effect (optional) */
+            background-color: white; /* Fallback background color in case the image doesn't load */
+            /* You can also add other background properties like background-position, background-attachment, etc. */
+            color: black; /* Set text color to contrast with the background */
+            font-family: Arial, sans-serif; /* Set your desired font */
+            position: relative;
+        }
+
+        body::before {
+            content: "";
+            background-color: white; /* White background color */
+            opacity: 0.5; /* Set the opacity to 0.5 (50%) */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
         }
 
         header {
@@ -36,7 +49,7 @@
 
         nav a {
             text-decoration: none;
-            color: black; /* Change link color to black */
+            color: blue; /* Change link color to black */
             margin: 10px;
             font-size: 20px;
         }
@@ -49,14 +62,38 @@
     </header>
 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+        <a href="#self-introduction">My Self Introduction</a>
+        <a href="#work-showcase">My Work Showcase</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#education-background">My Education Background</a>
     </nav>
 
-    <img src="./background.jpg" />
+    <section id="self-introduction">
+        <h2>My Self Introduction</h2>
+        <p>
+            I'm an enthusiastic individual with a passion for web development and design. I enjoy working with HTML, CSS, and JavaScript to create beautiful and functional websites.
+        </p>
+    </section>
 
+    <section id="work-showcase">
+        <h2>My Work Showcase</h2>
+        <p>
+            Here are some of my recent web development projects. Click the links to view the details and see my work in action.
+        </p>
+    </section>
 
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <p>
+            When I'm not coding, I love hiking in the great outdoors, reading, and experimenting with new cooking recipes.
+        </p>
+    </section>
+
+    <section id="education-background">
+        <h2>My Education Background</h2>
+        <p>
+            I have a Bachelor's degree in Computer Science from XYZ University and have completed various online courses in web development and design.
+        </p>
+    </section>
 </body>
 </html>
