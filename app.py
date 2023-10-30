@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, Blueprint
 
 app = Flask(__name__, template_folder="templates")
 
@@ -11,6 +11,11 @@ def index():
 @app.route("/home")
 def home():
     return render_template('home.html')
+
+
+@app.route("/demo")
+def demo():
+    return render_template('demo.html')
 
 
 # this is the entrance of the app

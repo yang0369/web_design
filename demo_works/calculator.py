@@ -1,12 +1,12 @@
 # two types of programming
 
 # 1. functional programming
-# def calculate(x, y, ops):
-#     if ops == "sum":
-#         print(x + y)
-#
-#
-# calculate(1, 2, "sum")
+def calculate(x, y, ops):
+    if ops == "sum":
+        print(x + y)
+
+
+calculate(1, 2, "sum")
 
 
 # 2. object-oriented programming -> OOP
