@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <style>
+        body {
+            background-image: url("static/background.jpg");
+            background-blend-mode: lighten;
+            opacity: 0.9;
+        }
+
+        .intro {
+            text-align: left;
+            padding: 0px;
+            position: relative;
+            width: 100%;
+            left: 0;
+            background-color: #C2CAD0;
+        }
+
+        .content {
+            background-color: #C2CAD0;
+            background-repeat: no-repeat; /* Prevent the background image from repeating */
+            background-attachment: fixed; /* Fixed background for a parallax effect (optional) */
+            position: cover;
+            overflow: auto;
+            height: 400px;
+        }
+
+        h1 {
+            text-align: left;
+            padding: 0;
+            font-size: 30px;
+        }
+
+        h2 {
+            text-align: left;
+            padding: 5px;
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: left;
+            padding: 10px;
+        }
+
+        nav {
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        nav a {
+        text-decoration: none;
+        color: #333; /* Change link color to a dark gray */
+        margin: 10px;
+        font-size: 18px; /* Slightly reduce font size for better readability */
+        padding: 10px 20px; /* Add padding for more comfortable click targets */
+        background: #f2f2f2; /* Use a light gray background */
+        border-radius: 5px; /* Add rounded corners for a button-like look */
+        transition: background 0.3s; /* Smooth transition effect on hover */
+        }
+
+        nav a:hover {
+        background: #333; /* Darken the background on hover */
+        color: white; /* Change text color to white on hover */
+        }
+
+        hr.rounded {
+        border-top: 10px solid black;
+        border-radius: 5px;
+        margin: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="intro">
+        <header>
+            <img src="static/Profile.jpg" alt="kewen" style="width: 100px; height: 100px; border-radius: 50%; float: left; margin-right: 20px;">
+            <h1>YANG KEWEN</h1>
+            <p>Hi Friends, welcome to my personal website.</p>
+        </header>
+
+        <nav>
+            <a href="#self-introduction">My Self Introduction</a>
+            <a href="#education-background">My Background</a>
+            <a href="#hobbies">My Hobbies</a>
+            <a href= {{ url_for('demo') }}>Click To See My Demo Works!</a>
+        </nav>
+
+        <hr class="rounded">
+    </div>
+
+
+    <div class="content">
+        <section id="self-introduction">
+            <h2>My Self Introduction</h2>
+            <p>
+                I am currently working as an AI Scientist, where I apply AI and Data Science knowledge to build NLP applications. <br />
+                Sometimes I share my works and knowledge to my <a href="https://medium.com/@yangkewenvigorous">medium</a> and <a href="https://www.linkedin.com/in/yangkewen/">linkedin</a>.
+            </p>
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <p>
+                Learning latest technology and share knowledge with my students! Yes, I provide coding tuition to primary and secondary students.
+            </p>
+        </section>
+
+        <section id="education-background">
+            <h2>My Education Background</h2>
+            <p>
+                I have graduated from National University Of Singapore, MSc in Statistics and computer science.
+            </p>
+        </section>
+    </div>
+</body>
+</html>
