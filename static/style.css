@@ -36,7 +36,7 @@
 }
 /* about section image css */
 .imageAboutPage {
-    width: 100%;
+    width: 60%;
 }
 
 /* services section css */
@@ -64,7 +64,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-facebook:hover,.fa-medium:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
     color: #008000;
 }
 .fab {
