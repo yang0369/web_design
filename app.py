@@ -22,6 +22,12 @@ def demo():
 if __name__ == '__main__':
     app.run(debug=True, port=5005)
 
+# for saikrit
+# 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
+
 
 # deployment
 # https://render.com/docs/deploy-flask
+
+# backend
+# https://medium.com/analytics-vidhya/how-to-create-a-contact-page-that-users-can-use-to-contact-you-on-your-website-758187207f65
