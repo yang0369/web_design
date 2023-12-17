@@ -26,6 +26,21 @@ if __name__ == '__main__':
 for saikrit:
 # password:
 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
+
+
+# how to use git to push changes to global:
+1. make sure you are in the correct path: 
+copy this "cd /Users/deepakjha/Desktop/Roblox/web_design"
+and paste in the terminal
+
+2. type "git status" to check any changed files
+
+3. type "git add file_names" to add changes to stage
+
+4. type "git commit -m your_message" to create a reference
+
+5. type "git push" to update remote
+
 """
 
 
