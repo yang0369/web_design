@@ -24,8 +24,8 @@ if __name__ == '__main__':
 
 """
 for saikrit:
-# password:
-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
+# both username and password:
+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
 
 
 # how to use git to push changes to global:
