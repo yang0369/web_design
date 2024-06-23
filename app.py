@@ -34,3 +34,5 @@ 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
 
 # backend
 # https://medium.com/analytics-vidhya/how-to-create-a-contact-page-that-users-can-use-to-contact-you-on-your-website-758187207f65
+
+# ref: https://code.tutsplus.com/intro-to-flask-adding-a-contact-page--net-28982t
