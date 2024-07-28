@@ -3,9 +3,9 @@ from flask import Flask, render_template, Blueprint
 app = Flask(__name__, template_folder="templates")
 
 
-@app.route("/health")
-def index():
-    return 'index'
+@app.route("/")
+def health():
+    return 'website is live!'
 
 
 @app.route("/home")
@@ -49,3 +49,5 @@ and paste in the terminal
 
 # backend
 # https://medium.com/analytics-vidhya/how-to-create-a-contact-page-that-users-can-use-to-contact-you-on-your-website-758187207f65
+
+# ref: https://code.tutsplus.com/intro-to-flask-adding-a-contact-page--net-28982t
