@@ -3,9 +3,9 @@ from flask import Flask, render_template, Blueprint
 app = Flask(__name__, template_folder="templates")
 
 
-@app.route("/health")
-def index():
-    return 'index'
+@app.route("/")
+def health():
+    return 'website is live!'
 
 
 @app.route("/home")
