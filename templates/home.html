@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Portfolio Website-YANG KEWEN</title>
+  <title>Portfolio Website-SAIKRIT JHA</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- linking css file -->
@@ -17,7 +17,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
         <div class="container">
-            <a class="navbar-brand" href="#">YANG KEWEN</a>
+            <a class="navbar-brand" href="#">SAIKRIT JHA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -30,10 +30,7 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -48,7 +45,7 @@
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Hi Friends, Weclome To My Page</h2>
+                <h2 class="hero_title">Hi Friends, Welcome To My Page</h2>
                 <p class="hero_desc">Stay Tuned, More Updates Coming Soon</p>
             </div>
             </div>
@@ -65,17 +62,16 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <p>
-                        I am currently working as an AI Scientist, where I apply AI and Data Science knowledge to build NLP applications. <br />
-                        Sometimes I share my works and knowledge to my <a href="https://medium.com/@yangkewenvigorous">medium</a> and <a href="https://www.linkedin.com/in/yangkewen/">linkedin</a>.
+                    <p> I put in my utmost efforts to achieve my goals. <br />
                     </p>
                     <div class="row mt-3">
                         <div class="col-md-6">
                             <ul>
-                                <li>Name: Yang Kewen</li>
-                                <li>Part-Time Occupation: Freelance Software Developer</li>
-                                <li>Specialization: Data Analytics, Backend Development, Natural Language Processing, NER, Relation Extraction, Large Language Model Finetuing</li>
-                                <li>Hobby: Teach Students Coding</li>
+                                <li>Name: Saikrit Jha</li>
+                                <li>Full-Time Occupation: Student</li>
+                                <li>Hobbies: Coding, football, swimming, creating games</li>
+                                <li>Strengths: Mathematics, Science</li>
+                                <li>Favourite food: Nasi Lemak, Chicken rice</li>
 
                             </ul>
                         </div>
@@ -84,18 +80,30 @@
             </div>
     </section>
 
+    <hr class="rounded">
+
     <!-- services section-->
-    <section id="services">
+    <section id="experience">
         <div class="container">
-            <h1 class="text-center">Services</h1>
+            <h1 class="text-center">Experience</h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
                             <i class="fas servicesIcon fa-clock"></i>
-                            <h4 class="card-title mt-3">Website Development</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            <h4 class="card-title mt-3">Programming</h4>
+                            <p class="card-text mt-3">I have learned Roblox, Python programming during my enrichment class,
+                                and since then I have been developing my own Python projects with passion.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Mathematics</h4>
+                            <p class="card-text mt-3">I like math as well.
                             </p>
                         </div>
                     </div>
@@ -104,181 +112,31 @@
                     <div class="card servicesText">
                         <div class="card-body">
                             <i class='fas servicesIcon fa-layer-group'></i>
-                            <h4 class="card-title mt-3">Pokemon Caption</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                                <a href= {{ url_for('demo') }}>click</a>
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='far servicesIcon fa-check-circle'></i>
-                            <h4 class="card-title mt-3">Website Deployment</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            <h4 class="card-title mt-3">Website Development</h4>
+                            <p class="card-text mt-3">I developed this website during my leisure time.
+                                <a href= {{ url_for('demo') }}>Demo</a>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-search'></i>
-                            <h4 class="card-title mt-3">SEO</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-shield-alt'></i>
-                            <h4 class="card-title mt-3">DevOps</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-wrench'></i>
-                            <h4 class="card-title mt-3">QA</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- portfolio section-->
-    <section id="portfolio">
-        <div class="container mt-3">
-            <h1 class="text-center">Portfolio</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">YouTube Clone</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Quiz App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Product Landing Page</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Messaging Service</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Twitter Clone</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Blog App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
+    <hr class="rounded">
 
     <!-- contact section-->
     <section id="contact">
         <div class="container mt-3 contactContent">
             <h1 class="text-center">Contact Me</h1>
 
-            <div class="row mt-4">
-                <div class="col-lg-6">
-                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
-                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
-                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-                            </iframe>
-                        </div>
-                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
-                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
-                        </style>
-                    </div>
-                </div>
-
                 <div class="col-lg-6">
                     <!-- form fields -->
                     <form>
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input type="email" class="form-control mt-3" placeholder="Email">
-                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <input type="text" class="form-control form-control-lg" placeholder="Name: Saikrit Jha">
+                        <input type="email" class="form-control mt-3" placeholder="Email: saikritjha@gmail.com">
+                        <input type="text" class="form-control mt-3" placeholder="Subject: Queries if any">
                         <div class="mb-3 mt-3">
                             <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
                         </div>
